@@ -1,7 +1,6 @@
 # PNetNBS
 Remote access tool.
-Go to T1 branch for ready-to-use build.
-Project is still under maintenance, feel free to open pull requests.
+Project is still under maintenance, so it might be buggy, feel free to open pull requests.
 
 ## Evasion
 -  Direct syscalls 
