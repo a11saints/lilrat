@@ -1,4 +1,4 @@
-# PNetNBS
+# lilrat
 Remote access tool.
 Project is still under maintenance, so it might be buggy, feel free to open pull requests.
 
