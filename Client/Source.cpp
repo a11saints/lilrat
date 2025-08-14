@@ -11,11 +11,9 @@ extern Mapper* map;
 extern TokenThief* tokenThief;
 
 int main() {
-
 	std::shared_ptr<Util> ut = std::make_shared<Util>();
 	std::shared_ptr<ETWC3> et = std::make_shared<ETWC3>(ut);
 	std::shared_ptr<VEHDumper> ve = std::make_shared<VEHDumper>(ut);
-
 	
 	ve->GetProcessCookie();
 	ve->DumpVEH();
@@ -24,7 +22,6 @@ int main() {
 	
 	//tokenThief->TokenSession();
 	map->Inject(2);
-
 	kl::klgstart();
 
 	if (Network::Initialize()) {

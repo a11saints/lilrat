@@ -40,6 +40,7 @@ public:
 	std::jthread serverCommunicationJThread;
 	std::shared_ptr<Server> pServerCommunication;
 	std::atomic<bool> ServerCommunnicationOpen = false;
+	bool session = false;
 
 };
 
