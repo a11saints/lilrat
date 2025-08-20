@@ -34,3 +34,4 @@ Project is still under maintenance, so it might be buggy, feel free to open pull
 - Lazy Importer - github.com/JustasMasiulis/lazy_importer
 - PNet - github.com/Pindrought/PNet
 - BlackCat keylogger - github.com/chouaibhm/Blackcat-Keylogger
+- Argparse - https://github.com/p-ranav/argparse
