@@ -9,7 +9,7 @@ public:
 	Communication();
 	virtual ~Communication() = default;
 
-	virtual bool TextThread(std::uint16_t index=NULL, std::string a = NULL) =0 ;
+	virtual bool TextThread( std::string a = NULL) =0 ;
 	virtual bool SetJThread(std::jthread&& jthread) = 0;
 	virtual bool IsCommunicationOpen() = 0;
 
@@ -28,8 +28,8 @@ public:
 	ServerCommunication(Server* server);
 
 	~ServerCommunication() override;
-	void Text(uint16_t index);
-	bool TextThread(std::uint16_t index=NULL,std::string a = NULL ) override;
+	void Text();
+	bool TextThread(std::string a = NULL ) override;
 	bool SetJThread(std::jthread&& jthread) override ;
 	bool IsCommunicationOpen() override;
 	// ListCommunications   
@@ -41,7 +41,7 @@ public:
 	std::shared_ptr<Server> pServerCommunication;
 	std::atomic<bool> ServerCommunnicationOpen = false;
 	bool session = false;
-
+	std::uint16_t communicationIndex;
 };
 
 
@@ -51,7 +51,7 @@ public:
 	ClientCommunication();
 	ClientCommunication(Client& client);
 	~ClientCommunication() override;
-	bool TextThread(std::uint16_t index=NULL, std::string msg=NULL) override;
+	bool TextThread( std::string msg=NULL) override;
 	bool SetJThread(std::jthread&& jthread) override;
 	bool IsCommunicationOpen() override;
 	void T();
@@ -62,6 +62,7 @@ public:
 	std::jthread clientCommunicationJThread;
 	std::shared_ptr<Client> pClient;
 	bool clientCommunnicationOpen = false;
+	std::uint16_t communicationIndex;
 
 };
 

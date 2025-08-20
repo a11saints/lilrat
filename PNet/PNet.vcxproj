@@ -169,6 +169,7 @@
     <ClCompile Include="TCPConnection.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Argparse.hpp" />
     <ClInclude Include="Client.hpp" />
     <ClInclude Include="Communication.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>

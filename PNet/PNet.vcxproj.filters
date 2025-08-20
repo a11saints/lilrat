@@ -19,6 +19,9 @@
     <Filter Include="Header Files\Net">
       <UniqueIdentifier>{ba1a08b2-f2d1-40c9-805f-87b5b55dcfcb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{27e2328c-1656-403e-aa1e-1fb64b98d490}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="network.cpp">
@@ -115,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="SocketHandle.hpp">
       <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Argparse.hpp">
+      <Filter>Header Files\Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

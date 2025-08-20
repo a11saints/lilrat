@@ -8,7 +8,7 @@ int main() {
 		MyServer server;
 		ServerCommunication sc(server);
 		if (server.Initialize(IPEndpoint("127.0.0.1", 6112))) {
-			sc.TextThread(0,"");
+			sc.TextThread("");
 			while (true) {
 				server.Frame();
 			}
