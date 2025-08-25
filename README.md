@@ -2,7 +2,7 @@
 Remote access tool.
 Project is still under maintenance, so it might be buggy, feel free to open pull requests.
 
-[![Watch the video](https://raw.githubusercontent.com/a11saints/lilrat/master/Thumbnails/evasion.png)](https://raw.githubusercontent.com/a11saints/lilrat/master/Thumbnails/evasion.MP4)
+![](https://raw.githubusercontent.com/a11saints/lilrat/master/Thumbnails/evasion.gif)
 
 
 ## Evasion
