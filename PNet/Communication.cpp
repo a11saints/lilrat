@@ -56,7 +56,7 @@ void ServerCommunication::Text() {
 		program.add_argument("-c", "--commandline").help("Specify either 'cmd' or 'pws'").choices("cmd", "pws");
 		program.add_argument("-t", "--terminate").help("Specify either 0 or 1").choices(0, 1).scan<'i', int>();
 		program.add_argument("-h", "--host").help("Specify any number").scan<'i', int>();
-		program.add_argument("strings").remaining().default_value(std::vector<std::string>{});
+		program.add_argument("strings").remaining().default_value( std::vector<std::string>{});
 		try {
 			program.parse_args(v());
 		}
@@ -132,8 +132,7 @@ ClientCommunication::ClientCommunication(Client & client) {
 	TextThread("");
 }
 
-ClientCommunication::~ClientCommunication() {
-}
+ClientCommunication::~ClientCommunication() {}
 
 void  ClientCommunication::T() {
 	while (IsCommunicationOpen()) {
@@ -156,7 +155,6 @@ bool ClientCommunication::TextThread(std::string msg ) {
 	}
 	return 0;
 }
-
 
 bool ClientCommunication::SetJThread(std::jthread&& jthread) {
 	clientCommunicationJThread = std::move(jthread);

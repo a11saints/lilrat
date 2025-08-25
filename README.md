@@ -2,6 +2,9 @@
 Remote access tool.
 Project is still under maintenance, so it might be buggy, feel free to open pull requests.
 
+[![Watch the video](https://raw.githubusercontent.com/a11saints/lilrat/master/Thumbnails/evasion.jpg)](https://raw.githubusercontent.com/a11saints/lilrat/master/Thumbnails/evasion.mp4)
+
+
 ## Evasion
 -  Direct syscalls 
 -  Drip Loader  
